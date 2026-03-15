@@ -180,7 +180,7 @@ export default function Projects() {
     <>
       <Container className="mt-20 mb-28">
         <Container.Inner>
-          <div className="mb-16 grid grid-cols-1 gap-x-8 gap-y-16 lg:grid-cols-3">
+                    <div className="mb-16 grid grid-cols-1 gap-x-8 gap-y-16 lg:grid-cols-3">
             {projects
               .slice()
               .sort((a, b) => a.name.localeCompare(b.name))
